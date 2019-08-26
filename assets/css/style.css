@@ -364,6 +364,7 @@ section#intro {
   position: absolute;
   width: 500px;
   height: 300px;
+  object-fit: fill;
   left: 0;
 }
 
@@ -413,7 +414,7 @@ position: absolute;
   z-index: 1;
     transition: .5s;
     text-decoration: none;
-    
+
 }
 .button a:hover {
     background-color: #666;
@@ -432,7 +433,7 @@ position: absolute;
   opacity: 1;
 }
 @media (min-width: 1024px) {
-    
+
 	section#intro {
 		background-attachment: fixed;
 	}
@@ -853,7 +854,7 @@ section#services {
     margin: 0;
     position: relative;
     top: 0px;
-    
+
 }
 
 @media (min-width: 1024px) {
@@ -1307,7 +1308,7 @@ img.pull-left{
 /* ==== media screen queries ==== */
 
 @media (min-width: 768px) and (max-width: 979px) {
-  
+
 	.navbar-inner {
 		width:100%;
 	}
@@ -1339,7 +1340,7 @@ object-position: center;
 	.navbar-inner {
 		width:100%;
         margin-top: -25px;
-        
+
 	}
 	.navbar-inner .container {
 	width:100%;
@@ -1389,8 +1390,8 @@ object-position: center;
           border-radius: 4px;
 		font-size:14px;
         margin: 0 auto;
-        
-        
+
+
     }
 
     nav select  a {
