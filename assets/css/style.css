@@ -364,7 +364,8 @@ section#intro {
   position: absolute;
   width: 500px;
   height: 300px;
-  object-fit: fill;
+  object-fit: cover;
+  background-size: cover;
   left: 0;
 }
 
